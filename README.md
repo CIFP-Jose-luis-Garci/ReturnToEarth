@@ -2,6 +2,7 @@
 
 Alex Lechón: diseño gráfico
 David Ruiz: guión 
-Carlos Torres: guión
-Sergio Jurado: mecánicas + programar 
-Celia Rico: diseño gráfico + ayuda programación
+Carlos Torres: guión + mecánicas
+Sergio Jurado: mecánicas  
+Celia Rico: diseño gráfico 
+Programación: WE ALL IN THIS TOGETHER
