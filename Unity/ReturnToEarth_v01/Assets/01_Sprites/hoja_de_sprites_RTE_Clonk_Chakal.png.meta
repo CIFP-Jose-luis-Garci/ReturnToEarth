@@ -1,0 +1,564 @@
+fileFormatVersion: 2
+guid: 044065bf83f5954428da5e94250489c6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5686454191592116839
+    second: hoja_de_sprites_RTE_Clonk_Chakal_25
+  - first:
+      213: 102229161181508376
+    second: hoja_de_sprites_RTE_Clonk_Chakal_26
+  - first:
+      213: -7198158463436296597
+    second: hoja_de_sprites_RTE_Clonk_Chakal_27
+  - first:
+      213: -1806549265805848415
+    second: hoja_de_sprites_RTE_Clonk_Chakal_28
+  - first:
+      213: 3511247423130815937
+    second: hoja_de_sprites_RTE_Clonk_Chakal_29
+  - first:
+      213: 1169935601831141398
+    second: hoja_de_sprites_RTE_Clonk_Chakal_30
+  - first:
+      213: 4786765844966546408
+    second: hoja_de_sprites_RTE_Clonk_Chakal_31
+  - first:
+      213: 1459117818197640173
+    second: hoja_de_sprites_RTE_Clonk_Chakal_32
+  - first:
+      213: -7355248881960875197
+    second: hoja_de_sprites_RTE_Clonk_Chakal_33
+  - first:
+      213: 3317461399298313736
+    second: hoja_de_sprites_RTE_Clonk_Chakal_34
+  - first:
+      213: -2859709482273037709
+    second: hoja_de_sprites_RTE_Clonk_Chakal_35
+  - first:
+      213: -723311612315867647
+    second: hoja_de_sprites_RTE_Clonk_Chakal_36
+  - first:
+      213: -8063634394796288853
+    second: hoja_de_sprites_RTE_Clonk_Chakal_37
+  - first:
+      213: 7259414277229547285
+    second: hoja_de_sprites_RTE_Clonk_Chakal_38
+  - first:
+      213: 3234820454360992645
+    second: hoja_de_sprites_RTE_Clonk_Chakal_39
+  - first:
+      213: -365931099826280198
+    second: hoja_de_sprites_RTE_Clonk_Chakal_40
+  - first:
+      213: -5171490396006746448
+    second: hoja_de_sprites_RTE_Clonk_Chakal_41
+  - first:
+      213: 1872966913204179253
+    second: hoja_de_sprites_RTE_Clonk_Chakal_42
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hoja_de_sprites_RTE_Clonk_Chakal_25
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1794
+        width: 275
+        height: 283
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99dee967a08a511b0800000000000000
+      internalID: -5686454191592116839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoja_de_sprites_RTE_Clonk_Chakal_26
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1794
+        width: 275
+        height: 274
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 813f8e561e03b6100800000000000000
+      internalID: 102229161181508376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoja_de_sprites_RTE_Clonk_Chakal_27
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 1794
+        width: 186
+        height: 290
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e68e5d3010b1c90800000000000000
+      internalID: -7198158463436296597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoja_de_sprites_RTE_Clonk_Chakal_28
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 1794
+        width: 186
+        height: 274
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a05666a309dde6e0800000000000000
+      internalID: -1806549265805848415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoja_de_sprites_RTE_Clonk_Chakal_29
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 1794
+        width: 194
+        height: 290
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cdc73e8de47ab030800000000000000
+      internalID: 3511247423130815937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoja_de_sprites_RTE_Clonk_Chakal_30
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 1794
+        width: 194
+        height: 274
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6106a353b327c3010800000000000000
+      internalID: 1169935601831141398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoja_de_sprites_RTE_Clonk_Chakal_31
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 1794
+        width: 282
+        height: 290
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb1434bc220e6240800000000000000
+      internalID: 4786765844966546408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoja_de_sprites_RTE_Clonk_Chakal_32
+      rect:
+        serializedVersion: 2
+        x: 1969
+        y: 1794
+        width: 282
+        height: 283
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de30d17cce3df3410800000000000000
+      internalID: 1459117818197640173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoja_de_sprites_RTE_Clonk_Chakal_33
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 1509
+        width: 90
+        height: 148
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b02249c18ece990800000000000000
+      internalID: -7355248881960875197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoja_de_sprites_RTE_Clonk_Chakal_34
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1514
+        width: 91
+        height: 138
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e0f35e09df90e20800000000000000
+      internalID: 3317461399298313736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoja_de_sprites_RTE_Clonk_Chakal_35
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1508
+        width: 90
+        height: 140
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 372ac4490654058d0800000000000000
+      internalID: -2859709482273037709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoja_de_sprites_RTE_Clonk_Chakal_36
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 1531
+        width: 205
+        height: 141
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1066ffdbbe746f5f0800000000000000
+      internalID: -723311612315867647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoja_de_sprites_RTE_Clonk_Chakal_37
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 1535
+        width: 211
+        height: 135
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba49b8bad37381090800000000000000
+      internalID: -8063634394796288853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoja_de_sprites_RTE_Clonk_Chakal_38
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 1543
+        width: 205
+        height: 141
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f8aa7b2de9eb460800000000000000
+      internalID: 7259414277229547285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoja_de_sprites_RTE_Clonk_Chakal_39
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 1542
+        width: 211
+        height: 135
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58bca5e701464ec20800000000000000
+      internalID: 3234820454360992645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoja_de_sprites_RTE_Clonk_Chakal_40
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 1527
+        width: 91
+        height: 171
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af8269e7a93fbeaf0800000000000000
+      internalID: -365931099826280198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoja_de_sprites_RTE_Clonk_Chakal_41
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 1507
+        width: 90
+        height: 179
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b67ca272ec2b38b0800000000000000
+      internalID: -5171490396006746448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoja_de_sprites_RTE_Clonk_Chakal_42
+      rect:
+        serializedVersion: 2
+        x: 2149
+        y: 1511
+        width: 91
+        height: 178
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5315891fb7d1ef910800000000000000
+      internalID: 1872966913204179253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 8837b7ac6a9a4c84bae43a227a93c173
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
