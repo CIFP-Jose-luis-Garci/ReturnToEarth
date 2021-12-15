@@ -15,9 +15,7 @@ public class MunecooControl : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        speed = 4f;
-        
-
+        maxSpeed = 4f;
     }
 
     // Update is called once per frame
@@ -30,58 +28,62 @@ public class MunecooControl : MonoBehaviour
         desplX = Input.GetAxis("Horizontal");
         desplY = Input.GetAxis("Vertical");
     }
+    private void FixedUpdate()
+    {
+      
+    }
 
     void MoverAbajo()
     {
         if (Input.GetKeyDown(KeyCode.DownArrow))
         {
+            rb.velocity = new Vector2(rb.velocity.x, desplY * maxSpeed);
             animator.SetBool("Caminar_Abajo",true);
-            rb.velocity = new Vector2(desplY * maxSpeed, rb.velocity.x);
         }
         else if (Input.GetKeyUp(KeyCode.DownArrow))
         {
+            rb.velocity = new Vector2(0f, 0f);
             animator.SetBool("Caminar_Abajo",false);
-        }
-        speed = rb.velocity.y;
+        } 
     }
     void MoverArriba()
     {
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
+            rb.velocity = new Vector2(rb.velocity.x, desplY * maxSpeed);
             animator.SetBool("Caminar_Arriba", true);
-            rb.velocity = new Vector2(desplY * maxSpeed, rb.velocity.x);
         }
         else if (Input.GetKeyUp(KeyCode.UpArrow))
         {
+            rb.velocity = new Vector2(0f, 0f);
             animator.SetBool("Caminar_Arriba", false);
-        }
-        speed = rb.velocity.y;
+        }    
     }
     void MoverIzquierda()
     {
         if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
-            animator.SetBool("Caminar_Izquierda", true);
             rb.velocity = new Vector2(desplX * maxSpeed, rb.velocity.y);
+            animator.SetBool("Caminar_Izquierda", true);
         }
         else if (Input.GetKeyUp(KeyCode.LeftArrow))
         {
+            rb.velocity = new Vector2(0f, 0f);
             animator.SetBool("Caminar_Izquierda", false);
-        }
-        speed = rb.velocity.x;
+        }   
     }
     void MoverDerecha()
     {
         if (Input.GetKeyDown(KeyCode.RightArrow))
         {
-            animator.SetBool("Caminar_Derecha", true);
             rb.velocity = new Vector2(desplX * maxSpeed, rb.velocity.y);
+            animator.SetBool("Caminar_Derecha", true);
         }
         else if (Input.GetKeyUp(KeyCode.RightArrow))
         {
+            rb.velocity = new Vector2(0f, 0f);
             animator.SetBool("Caminar_Derecha", false);
         }
-        speed = rb.velocity.x;
     }
 
 
