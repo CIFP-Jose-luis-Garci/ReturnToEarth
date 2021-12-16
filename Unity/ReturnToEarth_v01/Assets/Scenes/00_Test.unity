@@ -329,7 +329,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 830657901}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 957ca8c73daa8a541b04f527bcae1154, type: 3}
+  m_Script: {fileID: 11500000, guid: 56afee1fecbd81a42a63517af8a454c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   maxSpeed: 0
@@ -530,8 +530,8 @@ GameObject:
   - component: {fileID: 1410946668}
   - component: {fileID: 1410946667}
   - component: {fileID: 1410946666}
-  - component: {fileID: 1410946665}
   - component: {fileID: 1410946669}
+  - component: {fileID: 1410946665}
   m_Layer: 0
   m_Name: Clonk
   m_TagString: Untagged
@@ -548,7 +548,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1410946664}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 957ca8c73daa8a541b04f527bcae1154, type: 3}
+  m_Script: {fileID: 11500000, guid: 56afee1fecbd81a42a63517af8a454c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   maxSpeed: 0
