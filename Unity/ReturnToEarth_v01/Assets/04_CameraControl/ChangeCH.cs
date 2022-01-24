@@ -21,13 +21,21 @@ public class ChangeCH : MonoBehaviour
 
     //Array que contendrás las cámaras, más la de transición
     [SerializeField] GameObject[] charCams = new GameObject[4];
+
+    //Array con los sprites de selección y los básicos
+    [SerializeField] Sprite[] menuSelected = new Sprite[4];
+    [SerializeField] Sprite[] menuNotSelected = new Sprite[4];
+
+    //Array con las imágenes de selección
+    [SerializeField] Image[] menuImages = new Image[4];
+
+
     [SerializeField] GameObject camTrans;
 
     //Menú para elegir personaje
-    [SerializeField] Image menuCH;
+    [SerializeField] GameObject menuCH;
     bool menuCHactive = false;
-    //Array con los sprites
-    [SerializeField] Sprite[] menuCHsprites;
+
 
 
     //Personaje activo ahora mismo. Deberíamos obtrenerlo del Game Manager
@@ -52,10 +60,12 @@ public class ChangeCH : MonoBehaviour
         //Activamos la cámara de nuestro personaje y desactivamos la de transiciín
         camTrans.SetActive(false);
         charCams[activeCH].SetActive(true);
-        
+
+        //Ponemos la imagen del personaje seleccionado
+        menuImages[activeCH].sprite = menuSelected[activeCH];
 
         //Desactivamos el menú
-        menuCH.enabled = false;
+        menuCH.SetActive(false);
 
     }
 
@@ -68,14 +78,14 @@ public class ChangeCH : MonoBehaviour
             //Mostramos el menú si no está activo
             if(!menuCHactive)
             {
-                menuCH.enabled = true;
+                menuCH.SetActive(true);
                 menuCHactive = true;
                 //Desactivamos el desplazamiento
                 //charCtrl[activeCH].enabled = false;
             }
             else
             {
-                menuCH.enabled = false;
+                menuCH.SetActive(false);
                 menuCHactive = false;
                 //Activamos de nuevo el desplazamiento
                 charCtrl[activeCH].enabled = true;
@@ -109,8 +119,7 @@ public class ChangeCH : MonoBehaviour
 
     public void ChangeChar(int newChar)
     {
-        //Desactivamos el menú
-        menuCH.enabled = false;
+        
         menuCHactive = false;
         //Desactivamos la cámara y activamos la de transición
         charCams[activeCH].SetActive(false);
@@ -118,6 +127,12 @@ public class ChangeCH : MonoBehaviour
         //Desactivamos el control del personaje y activamos el nuevo
         charCtrl[activeCH].enabled = false;
         charCtrl[newChar].enabled = true;
+
+
+        //PQuitamos el botón del seleccionado y ponemos el nuevo
+        menuImages[activeCH].sprite = menuNotSelected[activeCH];
+        menuImages[newChar].sprite = menuSelected[newChar];
+
         //Alternamos personaje
         activeCH = newChar;
         //Llamamos al personaje
@@ -127,6 +142,8 @@ public class ChangeCH : MonoBehaviour
 
     public void GoToCamera()
     {
+        //Desactivamos el menú
+        menuCH.SetActive(false);
         //print("cambiando de camara");
         //Activamos la cámara del personaje
         camTrans.SetActive(false);
