@@ -35,6 +35,8 @@ public class ChangeCH : MonoBehaviour
     //Menú para elegir personaje
     [SerializeField] GameObject menuCH;
     bool menuCHactive = false;
+    //Si se ha seleccionado ya al personaje
+    bool chSeleceted = false;
 
 
 
@@ -72,7 +74,7 @@ public class ChangeCH : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.G))
+        if (Input.GetKeyDown(KeyCode.C) || Input.GetButtonDown("Fire3"))
         {
             //print("cambiando");
             //Mostramos el menú si no está activo
@@ -80,6 +82,7 @@ public class ChangeCH : MonoBehaviour
             {
                 menuCH.SetActive(true);
                 menuCHactive = true;
+
                 //Desactivamos el desplazamiento
                 //charCtrl[activeCH].enabled = false;
             }
@@ -97,22 +100,44 @@ public class ChangeCH : MonoBehaviour
         //Si el menú está activo
         if(menuCHactive)
         {
+            float DpadH = Input.GetAxis("DPad_H");
+            float DpadV = Input.GetAxis("DPad_V");
+
+            
+
             //Pulsamos el personaje 1
-            if(Input.GetKeyDown(KeyCode.Keypad0) && activeCH != 0)
+            if((DpadV == 1 && activeCH != 1) || (Input.GetKeyDown(KeyCode.Keypad1) && activeCH != 1))
             {
-                ChangeChar(0);
+                if(!chSeleceted)
+                {
+                    ChangeChar(1);
+                    chSeleceted = true;
+                }
+                
             }
-            else if (Input.GetKeyDown(KeyCode.Keypad1) && activeCH != 1)
+            else if ((DpadV == 1 && activeCH != 2) || (Input.GetKeyDown(KeyCode.Keypad2) && activeCH != 2))
             {
-                ChangeChar(1);
+                if (!chSeleceted)
+                {
+                    ChangeChar(2);
+                    chSeleceted = true;
+                }
             }
-            else if (Input.GetKeyDown(KeyCode.Keypad2) && activeCH != 2)
+            else if ((DpadV == 1 && activeCH != 3) || (Input.GetKeyDown(KeyCode.Keypad3) && activeCH != 3))
             {
-                ChangeChar(2);
+                if (!chSeleceted)
+                {
+                    ChangeChar(3);
+                    chSeleceted = true;
+                }
             }
-            else if (Input.GetKeyDown(KeyCode.Keypad3) && activeCH != 3)
+            else if ((DpadV == 1 && activeCH != 0) || (Input.GetKeyDown(KeyCode.Keypad0) && activeCH != 0))
             {
-                ChangeChar(3);
+                if (!chSeleceted)
+                {
+                    ChangeChar(0);
+                    chSeleceted = true;
+                }
             }
         }
     }
@@ -144,6 +169,8 @@ public class ChangeCH : MonoBehaviour
     {
         //Desactivamos el menú
         menuCH.SetActive(false);
+        //Volvemos a poner que el personaje esta por seleccionar
+        chSeleceted = false;
         //print("cambiando de camara");
         //Activamos la cámara del personaje
         camTrans.SetActive(false);
