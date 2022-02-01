@@ -7,10 +7,10 @@ public class ChangeCH : MonoBehaviour
 {
     //Personajes
     /*
-     * 0 - Clonk
-     * 1- Chakal
-     * 2- 
-     * 3- 
+     * 0- Nemea
+     * 1- Viktor
+     * 2- Clonk
+     * 3- Chakal
     */
 
     //Array que contendrá a los personajes
@@ -106,7 +106,7 @@ public class ChangeCH : MonoBehaviour
             
 
             //Pulsamos el personaje 1
-            if((DpadV == 1 && activeCH != 1) || (Input.GetKeyDown(KeyCode.Keypad1) && activeCH != 1))
+            if((DpadV == 1 && activeCH != 1) || (Input.GetKeyDown(KeyCode.UpArrow) && activeCH != 1))
             {
                 if(!chSeleceted)
                 {
@@ -115,7 +115,7 @@ public class ChangeCH : MonoBehaviour
                 }
                 
             }
-            else if ((DpadV == 1 && activeCH != 2) || (Input.GetKeyDown(KeyCode.Keypad2) && activeCH != 2))
+            else if ((DpadH == 1 && activeCH != 2) || (Input.GetKeyDown(KeyCode.RightArrow) && activeCH != 2))
             {
                 if (!chSeleceted)
                 {
@@ -123,7 +123,7 @@ public class ChangeCH : MonoBehaviour
                     chSeleceted = true;
                 }
             }
-            else if ((DpadV == 1 && activeCH != 3) || (Input.GetKeyDown(KeyCode.Keypad3) && activeCH != 3))
+            else if ((DpadV == -1 && activeCH != 3) || (Input.GetKeyDown(KeyCode.DownArrow) && activeCH != 3))
             {
                 if (!chSeleceted)
                 {
@@ -131,7 +131,7 @@ public class ChangeCH : MonoBehaviour
                     chSeleceted = true;
                 }
             }
-            else if ((DpadV == 1 && activeCH != 0) || (Input.GetKeyDown(KeyCode.Keypad0) && activeCH != 0))
+            else if ((DpadH == -1 && activeCH != 0) || (Input.GetKeyDown(KeyCode.LeftArrow) && activeCH != 0))
             {
                 if (!chSeleceted)
                 {

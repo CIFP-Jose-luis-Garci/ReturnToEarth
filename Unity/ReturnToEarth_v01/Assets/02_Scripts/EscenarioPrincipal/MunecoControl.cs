@@ -34,42 +34,40 @@ public class MunecoControl : MonoBehaviour
         rb.velocity = new Vector2(desplX * maxSpeed, rb.velocity.y);
         speed = rb.velocity.x;
         animator.SetFloat("SpeedX", Mathf.Abs(speed));
-        if(speed >= 4f)
+        if(speed >= 0.01f)
         {
+            animator.SetBool("Caminar_Arriba", false);
+            animator.SetBool("Caminar_Abajo", false);
             animator.SetBool("Caminar_Izquierda", false);
             animator.SetBool("Caminar_Derecha", true);
         }
-        else if(speed <= -4f)
+        else if(speed <= -0.01f)
         {
+            animator.SetBool("Caminar_Arriba", false);
+            animator.SetBool("Caminar_Abajo", false);
             animator.SetBool("Caminar_Derecha", false);
             animator.SetBool("Caminar_Izquierda", true);
-        }
-        else
-        {
-            animator.SetBool("Caminar_Derecha", false);
-            animator.SetBool("Caminar_Izquierda", false);
-        }
+        }     
     }
     void caminarY()
     {
         rb.velocity = new Vector2(rb.velocity.x, desplY * maxSpeed);
         speed = rb.velocity.y;
         animator.SetFloat("SpeedY", Mathf.Abs(speed));
-        if (speed >= 4f)
+        if (speed >= 0.01f)
         {
+            animator.SetBool("Caminar_Izquierda", false);
+            animator.SetBool("Caminar_Derecha", false);
             animator.SetBool("Caminar_Abajo", false);
             animator.SetBool("Caminar_Arriba", true);
         }
-        else if (speed <= -4f)
+        else if (speed <= -0.01f)
         {
+            animator.SetBool("Caminar_Izquierda", false);
+            animator.SetBool("Caminar_Derecha", false);
             animator.SetBool("Caminar_Arriba", false);
             animator.SetBool("Caminar_Abajo", true);
-        }
-        else
-        {
-            animator.SetBool("Caminar_Arriba", false);
-            animator.SetBool("Caminar_Abajo", false);
-        }
+        }        
     }
 
 }
