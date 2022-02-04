@@ -14,25 +14,23 @@ public class NaveControl : MonoBehaviour
     void Start()
     {
         vivir = GameObject.FindWithTag("Inicio").GetComponent<InitGame>();
-        vivo = vivir.alive;
-        speed = vivir.speed;
+        vivo = vivir.alive;  
         rb = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        desplY = Input.GetAxis("Vertical");
-    }
-    private void FixedUpdate()
-    {
-        if (vivir.alive)
+        if (vivo)
         {
             NavegarY();
-        }   
+        }
+        desplY = Input.GetAxis("Vertical");     
     }
+
     void NavegarY()
     {
+        speed = vivir.speed;
         float posY = transform.position.y;
         float desplY = Input.GetAxis("Vertical") * speed;
         if ((posY < limiteV1 || desplY < 0f) && (posY > limiteV2 || desplY > 0f))

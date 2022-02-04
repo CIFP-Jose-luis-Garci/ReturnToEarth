@@ -4,5 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/02_Ui_test.unity
+    guid: d7c70eb3acf231248ac16fd9b022fa5f
+  - enabled: 1
+    path: Assets/Scenes/EscenarioPrincipal.unity
+    guid: f12b5d87e3eec2142a7cde1102aa1da5
+  - enabled: 1
+    path: Assets/Scenes/Puzzle Chakal.unity
+    guid: 0131fd3607e62764a8c046ee65405bcf
+  - enabled: 1
+    path: Assets/Scenes/PuzzleFinal.unity
+    guid: 9148b982e4e52e74abaae6a7021044cb
   m_configObjects: {}

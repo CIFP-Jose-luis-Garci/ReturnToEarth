@@ -16,9 +16,7 @@ public class Instanciador : MonoBehaviour
         distance = 5f;
         vivir = GameObject.FindWithTag("Inicio").GetComponent<InitGame>();
         vivo = vivir.alive;
-        StartCoroutine("CrearAsteroides");
-       
-        
+        StartCoroutine("CrearAsteroides");              
     }
     void Update()
     {
@@ -26,20 +24,18 @@ public class Instanciador : MonoBehaviour
     }
     IEnumerator CrearAsteroides()
     {
-        if (vivir.alive)
+        if (vivo)
         {
             float speed;
             while (true)
             {
-
-                speed = vivir.speed;
+                speed = 5f;
                 intervalo = distance / speed;
                 float randomY = Random.Range(4f, -4f);
                 Vector2 newPos = new Vector3(instantiatePos.position.x + 5f, randomY);
                 int numAl = Random.Range(0, asteroides.Length);
                 Instantiate(asteroides[numAl], newPos, Quaternion.identity);
                 yield return new WaitForSeconds(intervalo);
-
             }
         }
             

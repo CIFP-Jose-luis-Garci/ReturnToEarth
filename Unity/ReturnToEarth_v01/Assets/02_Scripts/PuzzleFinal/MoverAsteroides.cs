@@ -6,17 +6,17 @@ public class MoverAsteroides : MonoBehaviour
 {
     float speed;
     InitGame vivir;
-    bool alive;
+    bool vivo;
 
     void Start()
     {
         vivir = GameObject.FindWithTag("Inicio").GetComponent<InitGame>();
-        alive = vivir.alive;    
+        vivo = vivir.alive;    
     }
 
     void Update()
     {
-        if (alive)
+        if (vivo)
         {
             MovimientoAsteroides();
         }
