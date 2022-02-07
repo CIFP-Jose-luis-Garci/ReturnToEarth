@@ -31,7 +31,7 @@ public class Instanciador : MonoBehaviour
             {
                 speed = 5f;
                 intervalo = distance / speed;
-                float randomY = Random.Range(4f, -4f);
+                float randomY = Random.Range(5f, -5f);
                 Vector2 newPos = new Vector3(instantiatePos.position.x + 5f, randomY);
                 int numAl = Random.Range(0, asteroides.Length);
                 Instantiate(asteroides[numAl], newPos, Quaternion.identity);

@@ -9,7 +9,7 @@ public class NaveControl : MonoBehaviour
     bool vivo;
     float desplY;
     float speed;
-    float limiteV1 = 4.38f;
+    float limiteV1 = 4.4f;
     float limiteV2 = -4.40f;
     void Start()
     {
@@ -17,7 +17,6 @@ public class NaveControl : MonoBehaviour
         vivo = vivir.alive;  
         rb = GetComponent<Rigidbody2D>();
     }
-
     // Update is called once per frame
     void Update()
     {
@@ -25,9 +24,8 @@ public class NaveControl : MonoBehaviour
         {
             NavegarY();
         }
-        desplY = Input.GetAxis("Vertical");     
+        desplY = Input.GetAxis("Vertical");
     }
-
     void NavegarY()
     {
         speed = vivir.speed;
@@ -37,7 +35,6 @@ public class NaveControl : MonoBehaviour
         {
             transform.Translate(Vector3.up * desplY * Time.deltaTime);
         }
-
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -46,8 +43,11 @@ public class NaveControl : MonoBehaviour
             InitGame initGame = GameObject.FindWithTag("Inicio").GetComponent<InitGame>();
             initGame.SendMessage("Muerte");
         }
+        else if(other.gameObject.tag == "Final")
+        {
+            //cargar cinematica
+        }
     }
-    
 }
 
 

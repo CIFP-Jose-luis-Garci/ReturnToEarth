@@ -9,6 +9,9 @@ TagManager:
   - Asteroides
   - Nave
   - Inicio
+  - Final
+  - galleta
+  - mapa
   layers:
   - Default
   - TransparentFX

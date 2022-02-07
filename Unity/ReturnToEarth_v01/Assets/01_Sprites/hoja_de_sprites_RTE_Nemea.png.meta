@@ -1,0 +1,837 @@
+fileFormatVersion: 2
+guid: 8744b4dafbad7ab4a96a442ceb2120dd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7078276207562310790
+    second: hoja_de_sprites_RTE_Nemea_0
+  - first:
+      213: 5839693879028403398
+    second: hoja_de_sprites_RTE_Nemea_1
+  - first:
+      213: 122855420618469796
+    second: hoja_de_sprites_RTE_Nemea_2
+  - first:
+      213: -2473019436494173581
+    second: hoja_de_sprites_RTE_Nemea_3
+  - first:
+      213: -415368332154670482
+    second: hoja_de_sprites_RTE_Nemea_4
+  - first:
+      213: -2717836366359690323
+    second: hoja_de_sprites_RTE_Nemea_5
+  - first:
+      213: 4911214751124543982
+    second: hoja_de_sprites_RTE_Nemea_6
+  - first:
+      213: -3756664290793232422
+    second: hoja_de_sprites_RTE_Nemea_7
+  - first:
+      213: 1944327383184776418
+    second: hoja_de_sprites_RTE_Nemea_8
+  - first:
+      213: -2570843870543554723
+    second: hoja_de_sprites_RTE_Nemea_9
+  - first:
+      213: 3188536236467347128
+    second: hoja_de_sprites_RTE_Nemea_10
+  - first:
+      213: -795886275603339786
+    second: hoja_de_sprites_RTE_Nemea_11
+  - first:
+      213: 4523671970785639895
+    second: hoja_de_sprites_RTE_Nemea_12
+  - first:
+      213: 9207288083525527181
+    second: hoja_de_sprites_RTE_Nemea_13
+  - first:
+      213: 3051479888602642310
+    second: hoja_de_sprites_RTE_Nemea_14
+  - first:
+      213: 4623666436267282789
+    second: hoja_de_sprites_RTE_Nemea_15
+  - first:
+      213: -4995843484810557855
+    second: hoja_de_sprites_RTE_Nemea_16
+  - first:
+      213: 7738915623121227323
+    second: hoja_de_sprites_RTE_Nemea_17
+  - first:
+      213: -6116737685157687156
+    second: hoja_de_sprites_RTE_Nemea_18
+  - first:
+      213: -1060442422065163464
+    second: hoja_de_sprites_RTE_Nemea_19
+  - first:
+      213: -210172566654875938
+    second: hoja_de_sprites_RTE_Nemea_20
+  - first:
+      213: 1814486962628654759
+    second: hoja_de_sprites_RTE_Nemea_21
+  - first:
+      213: -1124000726532305874
+    second: hoja_de_sprites_RTE_Nemea_22
+  - first:
+      213: -8492429643621513035
+    second: hoja_de_sprites_RTE_Nemea_23
+  - first:
+      213: 1238206519486049707
+    second: hoja_de_sprites_RTE_Nemea_24
+  - first:
+      213: 3450350176318872233
+    second: hoja_de_sprites_RTE_Nemea_25
+  - first:
+      213: -7394794618456388815
+    second: hoja_de_sprites_RTE_Nemea_26
+  - first:
+      213: 2814078010929336633
+    second: hoja_de_sprites_RTE_Nemea_27
+  - first:
+      213: -8879858651344644727
+    second: hoja_de_sprites_RTE_Nemea_28
+  - first:
+      213: 2779888426775344441
+    second: hoja_de_sprites_RTE_Nemea_29
+  - first:
+      213: -3466105200854700220
+    second: hoja_de_sprites_RTE_Nemea_30
+  - first:
+      213: -3708403368586212001
+    second: hoja_de_sprites_RTE_Nemea_31
+  - first:
+      213: -1154391915909349176
+    second: hoja_de_sprites_RTE_Nemea_32
+  - first:
+      213: 6464585036525010766
+    second: hoja_de_sprites_RTE_Nemea_33
+  - first:
+      213: -5153179755721063464
+    second: hoja_de_sprites_RTE_Nemea_34
+  - first:
+      213: -3306222817008030609
+    second: hoja_de_sprites_RTE_Nemea_35
+  - first:
+      213: -5091605431969675684
+    second: hoja_de_sprites_RTE_Nemea_36
+  - first:
+      213: -307222593071444860
+    second: hoja_de_sprites_RTE_Nemea_37
+  - first:
+      213: -114704527842511110
+    second: hoja_de_sprites_RTE_Nemea_38
+  - first:
+      213: 4686083321373769822
+    second: hoja_de_sprites_RTE_Nemea_39
+  - first:
+      213: -258377766101072750
+    second: hoja_de_sprites_RTE_Nemea_40
+  - first:
+      213: 2118962681155981406
+    second: hoja_de_sprites_RTE_Nemea_41
+  - first:
+      213: -7053366290234934560
+    second: hoja_de_sprites_RTE_Nemea_42
+  - first:
+      213: 615726693539917676
+    second: hoja_de_sprites_RTE_Nemea_43
+  - first:
+      213: 3901601111781456154
+    second: hoja_de_sprites_RTE_Nemea_44
+  - first:
+      213: -2711101001080174448
+    second: hoja_de_sprites_RTE_Nemea_45
+  - first:
+      213: -2340782749086220087
+    second: hoja_de_sprites_RTE_Nemea_46
+  - first:
+      213: -2974641522354147828
+    second: hoja_de_sprites_RTE_Nemea_47
+  - first:
+      213: 8896923106919571133
+    second: hoja_de_sprites_RTE_Nemea_48
+  - first:
+      213: 1140770030139870102
+    second: hoja_de_sprites_RTE_Nemea_49
+  - first:
+      213: 8326342638058212223
+    second: hoja_de_sprites_RTE_Nemea_50
+  - first:
+      213: 7152514741926533500
+    second: hoja_de_sprites_RTE_Nemea_51
+  - first:
+      213: 3161948153676475031
+    second: hoja_de_sprites_RTE_Nemea_52
+  - first:
+      213: -2382268652122497737
+    second: hoja_de_sprites_RTE_Nemea_53
+  - first:
+      213: 1770966358176887860
+    second: hoja_de_sprites_RTE_Nemea_54
+  - first:
+      213: 200666253650874225
+    second: hoja_de_sprites_RTE_Nemea_55
+  - first:
+      213: -4777377363642043492
+    second: hoja_de_sprites_RTE_Nemea_56
+  - first:
+      213: 5993301787236680223
+    second: hoja_de_sprites_RTE_Nemea_57
+  - first:
+      213: 4197094801223425380
+    second: hoja_de_sprites_RTE_Nemea_58
+  - first:
+      213: 6023759365292331808
+    second: hoja_de_sprites_RTE_Nemea_59
+  - first:
+      213: 325617337769546492
+    second: hoja_de_sprites_RTE_Nemea_60
+  - first:
+      213: 4220924535880284511
+    second: hoja_de_sprites_RTE_Nemea_61
+  - first:
+      213: 4681268698806495090
+    second: hoja_de_sprites_RTE_Nemea_62
+  - first:
+      213: -20775529511131912
+    second: hoja_de_sprites_RTE_Nemea_63
+  - first:
+      213: -6664376012778391346
+    second: hoja_de_sprites_RTE_Nemea_64
+  - first:
+      213: 4626382579844802233
+    second: hoja_de_sprites_RTE_Nemea_65
+  - first:
+      213: -7942180681805080823
+    second: hoja_de_sprites_RTE_Nemea_66
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hoja_de_sprites_RTE_Nemea_43
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1412
+        width: 154
+        height: 315
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f2c2f5a208b8800800000000000000
+      internalID: 615726693539917676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoja_de_sprites_RTE_Nemea_44
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 1416
+        width: 148
+        height: 307
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a19b0032a85452630800000000000000
+      internalID: 3901601111781456154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoja_de_sprites_RTE_Nemea_45
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 1411
+        width: 154
+        height: 315
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0980968e00c306ad0800000000000000
+      internalID: -2711101001080174448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoja_de_sprites_RTE_Nemea_46
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 1412
+        width: 155
+        height: 315
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c08a50ed7ed38fd0800000000000000
+      internalID: -2340782749086220087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoja_de_sprites_RTE_Nemea_47
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 1416
+        width: 146
+        height: 307
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0e24f5bb43f7b6d0800000000000000
+      internalID: -2974641522354147828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoja_de_sprites_RTE_Nemea_48
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 1412
+        width: 154
+        height: 315
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbed7e58d68387b70800000000000000
+      internalID: 8896923106919571133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoja_de_sprites_RTE_Nemea_49
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 960
+        width: 154
+        height: 315
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b06e06c44d4df00800000000000000
+      internalID: 1140770030139870102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoja_de_sprites_RTE_Nemea_50
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 960
+        width: 148
+        height: 315
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b06a3b38c1d8370800000000000000
+      internalID: 8326342638058212223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoja_de_sprites_RTE_Nemea_51
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 960
+        width: 154
+        height: 315
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79964b1346d24360800000000000000
+      internalID: 7152514741926533500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoja_de_sprites_RTE_Nemea_52
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 960
+        width: 155
+        height: 315
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79aa612d71f71eb20800000000000000
+      internalID: 3161948153676475031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoja_de_sprites_RTE_Nemea_53
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 960
+        width: 147
+        height: 315
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73d90be584b70fed0800000000000000
+      internalID: -2382268652122497737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoja_de_sprites_RTE_Nemea_54
+      rect:
+        serializedVersion: 2
+        x: 1965
+        y: 960
+        width: 155
+        height: 315
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 434fc40158cb39810800000000000000
+      internalID: 1770966358176887860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoja_de_sprites_RTE_Nemea_55
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 587
+        width: 116
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17fc44ff4e8e8c200800000000000000
+      internalID: 200666253650874225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoja_de_sprites_RTE_Nemea_56
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 587
+        width: 131
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c93bf12799853bdb0800000000000000
+      internalID: -4777377363642043492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoja_de_sprites_RTE_Nemea_57
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 594
+        width: 203
+        height: 275
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f12c4fbb83c7c2350800000000000000
+      internalID: 5993301787236680223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoja_de_sprites_RTE_Nemea_58
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 587
+        width: 122
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46d9f8b0c731f3a30800000000000000
+      internalID: 4197094801223425380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoja_de_sprites_RTE_Nemea_59
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 582
+        width: 138
+        height: 292
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0239eac3a31b89350800000000000000
+      internalID: 6023759365292331808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoja_de_sprites_RTE_Nemea_60
+      rect:
+        serializedVersion: 2
+        x: 1927
+        y: 595
+        width: 194
+        height: 266
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf256765e33d48400800000000000000
+      internalID: 325617337769546492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoja_de_sprites_RTE_Nemea_61
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 176
+        width: 114
+        height: 283
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f59ffd0808cb39a30800000000000000
+      internalID: 4220924535880284511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoja_de_sprites_RTE_Nemea_62
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 177
+        width: 131
+        height: 283
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2772482441537f040800000000000000
+      internalID: 4681268698806495090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoja_de_sprites_RTE_Nemea_63
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 176
+        width: 202
+        height: 275
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f4e77714c036bff0800000000000000
+      internalID: -20775529511131912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoja_de_sprites_RTE_Nemea_64
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 172
+        width: 123
+        height: 283
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec8b5b463516383a0800000000000000
+      internalID: -6664376012778391346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoja_de_sprites_RTE_Nemea_65
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 168
+        width: 139
+        height: 291
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b664bad176343040800000000000000
+      internalID: 4626382579844802233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoja_de_sprites_RTE_Nemea_66
+      rect:
+        serializedVersion: 2
+        x: 1889
+        y: 181
+        width: 194
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 907d907dfb4b7c190800000000000000
+      internalID: -7942180681805080823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 495959daacf7dae4185ca2b82475f23d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

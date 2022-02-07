@@ -34,10 +34,12 @@ public class ChangeCH : MonoBehaviour
 
     //Menú para elegir personaje
     [SerializeField] GameObject menuCH;
+    [SerializeField] GameObject inventario;
     bool menuCHactive = false;
+    bool inventarioactive = false;
     //Si se ha seleccionado ya al personaje
     bool chSeleceted = false;
-
+    
 
 
     //Personaje activo ahora mismo. Deberíamos obtrenerlo del Game Manager
@@ -68,6 +70,8 @@ public class ChangeCH : MonoBehaviour
 
         //Desactivamos el menú
         menuCH.SetActive(false);
+        //Desactivamos el inventario
+        inventario.SetActive(false);
 
     }
 
@@ -93,12 +97,25 @@ public class ChangeCH : MonoBehaviour
                 //Activamos de nuevo el desplazamiento
                 charCtrl[activeCH].enabled = true;
             }
-            
-
+        }
+        //Inventario
+        if (Input.GetKeyDown(KeyCode.I) || Input.GetButtonDown("Fire2"))
+        {
+            if (!inventarioactive)
+            {
+                inventario.SetActive(true);
+                inventarioactive = true;
+            }
+            else
+            {
+                inventario.SetActive(false);
+                inventarioactive = false;
+            }
+           
         }
 
-        //Si el menú está activo
-        if(menuCHactive)
+            //Si el menú está activo
+            if (menuCHactive)
         {
             float DpadH = Input.GetAxis("DPad_H");
             float DpadV = Input.GetAxis("DPad_V");
@@ -112,6 +129,7 @@ public class ChangeCH : MonoBehaviour
                 {
                     ChangeChar(1);
                     chSeleceted = true;
+                    inventario.GetComponent<Image>().color = new Color (255,177,67);
                 }
                 
             }
@@ -121,6 +139,7 @@ public class ChangeCH : MonoBehaviour
                 {
                     ChangeChar(2);
                     chSeleceted = true;
+                    inventario.GetComponent<Image>().color = new Color (0,163,255);
                 }
             }
             else if ((DpadV == -1 && activeCH != 3) || (Input.GetKeyDown(KeyCode.DownArrow) && activeCH != 3))
@@ -129,6 +148,7 @@ public class ChangeCH : MonoBehaviour
                 {
                     ChangeChar(3);
                     chSeleceted = true;
+                    inventario.GetComponent<Image>().color = new Color (228,34,50);
                 }
             }
             else if ((DpadH == -1 && activeCH != 0) || (Input.GetKeyDown(KeyCode.LeftArrow) && activeCH != 0))
@@ -137,6 +157,7 @@ public class ChangeCH : MonoBehaviour
                 {
                     ChangeChar(0);
                     chSeleceted = true;
+                    inventario.GetComponent<Image>().color = new Color (47,237,155);
                 }
             }
         }

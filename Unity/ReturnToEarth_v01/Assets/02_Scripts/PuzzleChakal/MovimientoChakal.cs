@@ -8,7 +8,7 @@ public class MovimientoChakal : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -27,6 +27,13 @@ public class MovimientoChakal : MonoBehaviour
     {
         float posX = transform.position.x;
         float desplX = Input.GetAxis("Horizontal") * speed;
-        transform.Translate(Vector3.right * desplX * Time.deltaTime);        
+        transform.Translate(Vector3.right * desplX * Time.deltaTime);
+    }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "galleta")
+        {
+            Destroy(other.gameObject);
+        }
     }
 }
