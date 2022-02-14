@@ -287,7 +287,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 389568133}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1188690401}
+        m_TargetAssemblyTypeName: Inicio, Assembly-CSharp
+        m_MethodName: cargarescenajuego
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &389568133
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1098,6 +1110,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1188690399}
   - component: {fileID: 1188690400}
+  - component: {fileID: 1188690401}
   m_Layer: 8
   m_Name: Space
   m_TagString: Untagged
@@ -1170,6 +1183,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1188690401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1188690398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8629f22a2489e7f4ba23686d9cab7027, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1228283584
 GameObject:
   m_ObjectHideFlags: 0
