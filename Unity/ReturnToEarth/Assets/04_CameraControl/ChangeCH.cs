@@ -15,23 +15,16 @@ public class ChangeCH : MonoBehaviour
 
     //Array que contendrá a los personajes
     [SerializeField] GameObject[] chars = new GameObject[4];
-
     //Array que contendra los scripts de control
     MunecoControl[] charCtrl = new MunecoControl[4];
-
     //Array que contendrás las cámaras, más la de transición
     [SerializeField] GameObject[] charCams = new GameObject[4];
-
     //Array con los sprites de selección y los básicos
     [SerializeField] Sprite[] menuSelected = new Sprite[4];
     [SerializeField] Sprite[] menuNotSelected = new Sprite[4];
-
     //Array con las imágenes de selección
     [SerializeField] Image[] menuImages = new Image[4];
-
-
     [SerializeField] GameObject camTrans;
-
     //Menú para elegir personaje
     [SerializeField] GameObject menuCH;
     [SerializeField] GameObject inventario;
@@ -71,16 +64,16 @@ public class ChangeCH : MonoBehaviour
         //Desactivamos el menú
         menuCH.SetActive(false);
         //Desactivamos el inventario
-        inventario.SetActive(false);
-
+        inventario.SetActive(false);            
     }
 
     // Update is called once per frame
     void Update()
     {
+        
         if (Input.GetKeyDown(KeyCode.C) || Input.GetButtonDown("Fire3"))
         {
-            //print("cambiando");
+            
             //Mostramos el menú si no está activo
             if(!menuCHactive)
             {
@@ -88,7 +81,7 @@ public class ChangeCH : MonoBehaviour
                 menuCHactive = true;
 
                 //Desactivamos el desplazamiento
-                //charCtrl[activeCH].enabled = false;
+                
             }
             else
             {
@@ -172,10 +165,14 @@ public class ChangeCH : MonoBehaviour
         camTrans.SetActive(true);
         //Desactivamos el control del personaje y activamos el nuevo
         charCtrl[activeCH].enabled = false;
+        //Desactivamos el box collider para que no haya bug con los triggers de las estancias
+        charCtrl[activeCH].GetComponent<BoxCollider2D>().enabled = false;
         charCtrl[newChar].enabled = true;
+        //Activamos el box collider para que no haya bug con los triggers de las estancias
+        charCtrl[newChar].GetComponent<BoxCollider2D>().enabled = true;
 
 
-        //PQuitamos el botón del seleccionado y ponemos el nuevo
+        //Quitamos el botón del seleccionado y ponemos el nuevo
         menuImages[activeCH].sprite = menuNotSelected[activeCH];
         menuImages[newChar].sprite = menuSelected[newChar];
 
@@ -192,7 +189,6 @@ public class ChangeCH : MonoBehaviour
         menuCH.SetActive(false);
         //Volvemos a poner que el personaje esta por seleccionar
         chSeleceted = false;
-        //print("cambiando de camara");
         //Activamos la cámara del personaje
         camTrans.SetActive(false);
         charCams[activeCH].SetActive(true);

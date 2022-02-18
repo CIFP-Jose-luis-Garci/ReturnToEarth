@@ -12,6 +12,13 @@ TagManager:
   - Final
   - galleta
   - mapa
+  - PuenteMandos
+  - SistemaVentilacion
+  - SalaMaquinas
+  - ZonaComun
+  - SalaControl
+  - HabitacionChakal
+  - HabitacionNemea
   layers:
   - Default
   - TransparentFX
