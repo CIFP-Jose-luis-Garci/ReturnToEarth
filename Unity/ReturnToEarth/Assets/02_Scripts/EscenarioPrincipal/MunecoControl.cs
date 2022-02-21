@@ -24,7 +24,6 @@ public class MunecoControl : MonoBehaviour
         estancias[3].SetActive(false);
         estancias[4].SetActive(false);
         estancias[5].SetActive(false);
-        
     }
 
     // Update is called once per frame
