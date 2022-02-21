@@ -7,6 +7,7 @@ public class NaveControl : MonoBehaviour
     Rigidbody2D rb;
     InitGame vivir;
     bool vivo;
+    public GameObject boom;
     float desplY;
     float speed;
     float limiteV1 = 4.4f;
@@ -42,6 +43,7 @@ public class NaveControl : MonoBehaviour
         {
             InitGame initGame = GameObject.FindWithTag("Inicio").GetComponent<InitGame>();
             initGame.SendMessage("Muerte");
+            Instantiate(boom, new Vector3(transform.position.x, transform.position.y, transform.position.z), Quaternion.identity);
         }
         else if(other.gameObject.tag == "Final")
         {

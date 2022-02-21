@@ -20,4 +20,8 @@ public class Inicio : MonoBehaviour
     {
         SceneManager.LoadScene(1);
     }
+    public void cargarescenafinal()
+    {
+        SceneManager.LoadScene(3);
+    }
 }

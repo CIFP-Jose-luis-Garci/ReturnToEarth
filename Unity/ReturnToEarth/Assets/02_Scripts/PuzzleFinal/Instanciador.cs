@@ -9,13 +9,10 @@ public class Instanciador : MonoBehaviour
     [SerializeField] GameObject[] asteroides;
     [SerializeField] Transform instantiatePos;
     [SerializeField] float distance;
-    InitGame vivir;
     bool vivo;
     void Start()
     {
         distance = 5f;
-        vivir = GameObject.FindWithTag("Inicio").GetComponent<InitGame>();
-        vivo = vivir.alive;
         StartCoroutine("CrearAsteroides");              
     }
     void Update()
@@ -24,8 +21,7 @@ public class Instanciador : MonoBehaviour
     }
     IEnumerator CrearAsteroides()
     {
-        if (vivo)
-        {
+        
             float speed;
             while (true)
             {
@@ -37,7 +33,7 @@ public class Instanciador : MonoBehaviour
                 Instantiate(asteroides[numAl], newPos, Quaternion.identity);
                 yield return new WaitForSeconds(intervalo);
             }
-        }
+        
             
     }
 }

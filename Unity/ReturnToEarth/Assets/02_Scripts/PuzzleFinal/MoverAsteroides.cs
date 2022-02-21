@@ -15,21 +15,18 @@ public class MoverAsteroides : MonoBehaviour
     }
 
     void Update()
-    {
-        if (vivo)
-        {
-            MovimientoAsteroides();
-        }
-       
+    {       
+            MovimientoAsteroides();      
     }
     void MovimientoAsteroides()
-    {
-        speed = 5f;
-        transform.Translate(Vector2.left * Time.deltaTime * speed);
-        float posX = transform.position.x;
-        if (posX < -15f)
-        {
-            Destroy(gameObject);
-        }
+    {     
+            speed = 5f;
+            transform.Translate(Vector2.left * Time.deltaTime * speed);
+            float posX = transform.position.x;
+            if (posX < -15f)
+            {
+                Destroy(gameObject);
+            }       
     }
+        
 }
