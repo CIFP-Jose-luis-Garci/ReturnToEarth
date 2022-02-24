@@ -28,7 +28,7 @@ public class Puertas : MonoBehaviour
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Personajes")
+        if (collision.gameObject.tag == "Personajes" )
         { 
             animator.SetBool("Open", false);
         }

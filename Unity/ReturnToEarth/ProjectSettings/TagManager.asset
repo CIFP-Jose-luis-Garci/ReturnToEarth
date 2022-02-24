@@ -19,6 +19,7 @@ TagManager:
   - SalaControl
   - HabitacionChakal
   - HabitacionNemea
+  - Caja
   layers:
   - Default
   - TransparentFX
