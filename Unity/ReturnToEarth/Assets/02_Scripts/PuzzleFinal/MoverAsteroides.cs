@@ -20,7 +20,7 @@ public class MoverAsteroides : MonoBehaviour
     }
     void MovimientoAsteroides()
     {     
-            speed = 5f;
+            speed = 10f;
             transform.Translate(Vector2.left * Time.deltaTime * speed);
             float posX = transform.position.x;
             if (posX < -15f)

@@ -24,7 +24,11 @@ public class MoverCajas : MonoBehaviour
             rb.mass = 100f;
         }
     }
-
-
-
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.name == "Clonk")
+        {
+            rb.mass = 10000000f;
+        }
+    }
 }

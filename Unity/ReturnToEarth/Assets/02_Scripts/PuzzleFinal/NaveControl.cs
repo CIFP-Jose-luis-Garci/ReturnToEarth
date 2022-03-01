@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Video;
 
 public class NaveControl : MonoBehaviour
 {
@@ -12,11 +13,13 @@ public class NaveControl : MonoBehaviour
     float speed;
     float limiteV1 = 4.4f;
     float limiteV2 = -4.40f;
+    VideoPlayer videoPlayer;
     void Start()
     {
         vivir = GameObject.FindWithTag("Inicio").GetComponent<InitGame>();
         vivo = vivir.alive;  
         rb = GetComponent<Rigidbody2D>();
+        videoPlayer = GetComponent<VideoPlayer>();
     }
     // Update is called once per frame
     void Update()
@@ -37,6 +40,10 @@ public class NaveControl : MonoBehaviour
             transform.Translate(Vector3.up * desplY * Time.deltaTime);
         }
     }
+    void quitar()
+    {
+        Application.Quit();
+    }
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.tag == "Asteroides")
@@ -47,7 +54,9 @@ public class NaveControl : MonoBehaviour
         }
         else if(other.gameObject.tag == "Final")
         {
-            //cargar cinematica
+            GetComponent<BoxCollider2D>().enabled = false;
+            videoPlayer.Play();
+            Invoke("quitar",37f);
         }
     }
 }
