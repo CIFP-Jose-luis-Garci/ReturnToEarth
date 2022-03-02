@@ -5,10 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class TriggerChakal : MonoBehaviour
 {
+    [SerializeField] GameObject cartel;
     // Start is called before the first frame update
     void Start()
     {
-        
+        cartel.SetActive(false);
     }
 
     // Update is called once per frame
@@ -24,8 +25,13 @@ public class TriggerChakal : MonoBehaviour
         }
         else
         {
-           //Poner cartel de que debes seleccionar a chakal para pasar por ahi
+            cartel.SetActive(true);
+            Invoke("desaparecer", 3f);
         }
     }
-    
+    public void desaparecer()
+    {
+        cartel.SetActive(false);
+    }
+
 }

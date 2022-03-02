@@ -28,6 +28,7 @@ public class ChangeCH : MonoBehaviour
     //Menú para elegir personaje
     [SerializeField] GameObject menuCH;
     [SerializeField] GameObject inventario;
+    [SerializeField] GameObject objetivos;
     bool menuCHactive = false;
     bool inventarioactive = false;
     //Si se ha seleccionado ya al personaje
@@ -37,7 +38,7 @@ public class ChangeCH : MonoBehaviour
 
     //Personaje activo ahora mismo. Deberíamos obtrenerlo del Game Manager
     //Es un INT, para que se corresponda con los arrays
-    int activeCH = 0;
+    int activeCH = 2;
 
     // Start is called before the first frame update
     void Start()
@@ -64,7 +65,9 @@ public class ChangeCH : MonoBehaviour
         //Desactivamos el menú
         menuCH.SetActive(false);
         //Desactivamos el inventario
-        inventario.SetActive(false);            
+        inventario.SetActive(false);
+        //Desactivamos los objetivos
+        objetivos.SetActive(false);
     }
 
     // Update is called once per frame
@@ -79,6 +82,7 @@ public class ChangeCH : MonoBehaviour
             {
                 menuCH.SetActive(true);
                 menuCHactive = true;
+                objetivos.SetActive(true);
 
                 //Desactivamos el desplazamiento
                 
@@ -87,11 +91,12 @@ public class ChangeCH : MonoBehaviour
             {
                 menuCH.SetActive(false);
                 menuCHactive = false;
+                objetivos.SetActive(false);
                 //Activamos de nuevo el desplazamiento
                 charCtrl[activeCH].enabled = true;
             }
         }
-        //Inventario
+        /*Inventario
         if (Input.GetKeyDown(KeyCode.I) || Input.GetButtonDown("Fire2"))
         {
             if (!inventarioactive)
@@ -106,7 +111,7 @@ public class ChangeCH : MonoBehaviour
             }
            
         }
-
+        */
             //Si el menú está activo
             if (menuCHactive)
         {

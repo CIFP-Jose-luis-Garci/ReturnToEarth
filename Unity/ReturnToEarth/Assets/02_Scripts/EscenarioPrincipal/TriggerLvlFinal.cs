@@ -5,10 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class TriggerLvlFinal : MonoBehaviour
 {
+    [SerializeField] GameObject cartel;
     // Start is called before the first frame update
     void Start()
     {
-        
+        cartel.SetActive(false);
     }
 
     // Update is called once per frame
@@ -24,7 +25,12 @@ public class TriggerLvlFinal : MonoBehaviour
         }
         else
         {
-            //Viktor es el unico que sabe manejar la nave(cartel)
+            cartel.SetActive(true);
+            Invoke("desaparecer", 3f);
         }
+    }
+    public void desaparecer()
+    {
+        cartel.SetActive(false);
     }
 }

@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PuzzleFinal.unity
     guid: 9148b982e4e52e74abaae6a7021044cb
+  - enabled: 1
+    path: Assets/Scenes/INTRO_Cinematica.unity
+    guid: b337d4ef329d1ed47bedada9d77bd469
   m_configObjects: {}
