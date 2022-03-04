@@ -9,10 +9,6 @@ public class Pause_Exit : MonoBehaviour
     //Es un Empty Object que actua como padre de los elementos
     [SerializeField] GameObject resumeMenu;
 
-    //Texto del contador que nos permite ver cómo se pausa el juego
-    [SerializeField] Text contador;
-    int contadorNum = 0;
-
     //Booleana que nos dice si el juego está pausado o no
     bool gamePaused = false;
     // Start is called before the first frame update
@@ -32,7 +28,6 @@ public class Pause_Exit : MonoBehaviour
     {
         //Método que ejecutamos constantemente
         // Podemos cambiarlo por ejemplo por el movimiento de nuestro personaje
-        Contador();
 
         //Si pulsamos la tecla "Esc" o la que sea, se activa el menú
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -62,21 +57,6 @@ public class Pause_Exit : MonoBehaviour
         //Lo que haya salido de este interruptor, lo pasamos al menú para que se active o no
         resumeMenu.SetActive(gamePaused);
     }
-
-    void Contador()
-    {
-
-        //Si el juego está pausado, detenemos el método mediante un return
-        //NOTA: cuando un IF solo tiene una línea, no es necesario llaves
-        if (gamePaused)
-            return;
-
-        //Vamos aumentando el contador
-        contadorNum++;
-        contador.text = contadorNum.ToString();
-
-    }
-
     //FUNCIONES PARA LOS BOTONES
     public void Resume()
     {

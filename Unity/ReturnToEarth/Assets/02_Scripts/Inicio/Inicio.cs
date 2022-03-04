@@ -28,4 +28,8 @@ public class Inicio : MonoBehaviour
     {
         Application.Quit();
     }
+    public void cargarescenaprincipal()
+    {
+        SceneManager.LoadScene(0);
+    }
 }
