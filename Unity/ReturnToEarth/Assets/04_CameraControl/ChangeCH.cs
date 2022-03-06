@@ -128,6 +128,7 @@ public class ChangeCH : MonoBehaviour
                     ChangeChar(1);
                     chSeleceted = true;
                     inventario.GetComponent<Image>().color = new Color (255,177,67);
+                    objetivos.SetActive(false);
                 }
                 
             }
@@ -138,6 +139,7 @@ public class ChangeCH : MonoBehaviour
                     ChangeChar(2);
                     chSeleceted = true;
                     inventario.GetComponent<Image>().color = new Color (0,163,255);
+                    objetivos.SetActive(false);
                 }
             }
             else if ((DpadV == -1 && activeCH != 3) || (Input.GetKeyDown(KeyCode.DownArrow) && activeCH != 3))
@@ -147,6 +149,7 @@ public class ChangeCH : MonoBehaviour
                     ChangeChar(3);
                     chSeleceted = true;
                     inventario.GetComponent<Image>().color = new Color (228,34,50);
+                    objetivos.SetActive(false);
                 }
             }
             else if ((DpadH == -1 && activeCH != 0) || (Input.GetKeyDown(KeyCode.LeftArrow) && activeCH != 0))
@@ -156,6 +159,7 @@ public class ChangeCH : MonoBehaviour
                     ChangeChar(0);
                     chSeleceted = true;
                     inventario.GetComponent<Image>().color = new Color (47,237,155);
+                    objetivos.SetActive(false);
                 }
             }
         }

@@ -2,12 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Audio;
 
 public class Pause_Exit : MonoBehaviour
 {
     //Obtenemos el menu que queremos desactivar/activar
     //Es un Empty Object que actua como padre de los elementos
     [SerializeField] GameObject resumeMenu;
+    [SerializeField] GameObject opciones;
+    public AudioMixer mixer;
 
     //Booleana que nos dice si el juego está pausado o no
     bool gamePaused = false;
@@ -20,6 +23,8 @@ public class Pause_Exit : MonoBehaviour
 
         //Lo desactivamos de inicio
         resumeMenu.SetActive(false);
+
+        opciones.SetActive(false);
 
     }
 
@@ -60,7 +65,7 @@ public class Pause_Exit : MonoBehaviour
     //FUNCIONES PARA LOS BOTONES
     public void Resume()
     {
-        //DESpausamos el juego y ocultamos el menú
+        //Despausamos el juego y ocultamos el menú
         gamePaused = false;
         Time.timeScale = 1f;
         resumeMenu.SetActive(false);
@@ -72,5 +77,19 @@ public class Pause_Exit : MonoBehaviour
         //Esta línea de código hace que se salga del juego
         //ES MUY IMPORTANTE DAR A LOS JUGADORES LA OPCiÓN DE SALIR
         Application.Quit();
+    }
+    public void options()
+    {
+        resumeMenu.SetActive(false);
+        opciones.SetActive(true);
+    }
+    public void volver()
+    {
+        opciones.SetActive(false);
+        resumeMenu.SetActive(true);
+    }
+    public void SetLevel(float sliderValue)
+    {
+        mixer.SetFloat("MusicVol", Mathf.Log10(sliderValue) * 20);
     }
 }

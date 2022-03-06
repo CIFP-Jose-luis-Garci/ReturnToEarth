@@ -5,10 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class Inicio : MonoBehaviour
 {
+    [SerializeField] GameObject opciones;
+
     // Start is called before the first frame update
     void Start()
     {
-       
+        opciones.SetActive(false);
     }
 
     // Update is called once per frame
@@ -32,4 +34,13 @@ public class Inicio : MonoBehaviour
     {
         SceneManager.LoadScene(0);
     }
+    public void options()
+    {
+        opciones.SetActive(true);
+    }
+    public void volver()
+    {
+        opciones.SetActive(false);
+    }
+
 }
