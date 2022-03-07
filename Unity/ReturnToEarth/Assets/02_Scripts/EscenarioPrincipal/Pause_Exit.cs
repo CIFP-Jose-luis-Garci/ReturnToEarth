@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Audio;
+using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 
 public class Pause_Exit : MonoBehaviour
 {
@@ -10,6 +12,9 @@ public class Pause_Exit : MonoBehaviour
     //Es un Empty Object que actua como padre de los elementos
     [SerializeField] GameObject resumeMenu;
     [SerializeField] GameObject opciones;
+    [SerializeField] GameObject start;
+    [SerializeField] Button btnStart, btnOptions;
+    [SerializeField] GameObject back;
     public AudioMixer mixer;
 
     //Booleana que nos dice si el juego está pausado o no
@@ -35,7 +40,7 @@ public class Pause_Exit : MonoBehaviour
         // Podemos cambiarlo por ejemplo por el movimiento de nuestro personaje
 
         //Si pulsamos la tecla "Esc" o la que sea, se activa el menú
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape) || Input.GetButtonDown("Start"))
         {
             ActivarMenu();
         }
@@ -49,18 +54,25 @@ public class Pause_Exit : MonoBehaviour
         //Si no está pausado, lo pausamos
         if (!gamePaused)
         {
+            //EventSystem.current.SetSelectedGameObject(start);
+            
             gamePaused = true;
             //Detenemos el tiempo del juego
             Time.timeScale = 0f;
+            
         }
         else
         {
             gamePaused = false;
             //Devolvemos el paso del tiempo al juego
             Time.timeScale = 1f;
+            opciones.SetActive(false);
         }
         //Lo que haya salido de este interruptor, lo pasamos al menú para que se active o no
         resumeMenu.SetActive(gamePaused);
+        print("Se activa el menú");
+        btnOptions.Select();
+        btnStart.Select();
     }
     //FUNCIONES PARA LOS BOTONES
     public void Resume()
@@ -69,24 +81,30 @@ public class Pause_Exit : MonoBehaviour
         gamePaused = false;
         Time.timeScale = 1f;
         resumeMenu.SetActive(false);
+        
 
     }
 
     public void Salir()
     {
-        //Esta línea de código hace que se salga del juego
-        //ES MUY IMPORTANTE DAR A LOS JUGADORES LA OPCiÓN DE SALIR
         Application.Quit();
+    }
+    public void inicio()
+    {
+        SceneManager.LoadScene(0);
     }
     public void options()
     {
         resumeMenu.SetActive(false);
         opciones.SetActive(true);
+        EventSystem.current.SetSelectedGameObject(back);
     }
     public void volver()
     {
         opciones.SetActive(false);
         resumeMenu.SetActive(true);
+        EventSystem.current.SetSelectedGameObject(start);
+
     }
     public void SetLevel(float sliderValue)
     {

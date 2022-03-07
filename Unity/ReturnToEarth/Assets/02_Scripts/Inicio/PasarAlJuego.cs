@@ -15,6 +15,10 @@ public class PasarAlJuego : MonoBehaviour
     void Update()
     {
         Invoke("pasaraljuego",124f);
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Fire1"))
+        {
+            SceneManager.LoadScene(1);
+        }
     }
     void pasaraljuego()
     {

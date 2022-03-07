@@ -2,10 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.EventSystems;
 
 public class Inicio : MonoBehaviour
 {
     [SerializeField] GameObject opciones;
+    [SerializeField] GameObject botones;
+    [SerializeField] GameObject start;
+    [SerializeField] GameObject back;
+
 
     // Start is called before the first frame update
     void Start()
@@ -37,10 +42,14 @@ public class Inicio : MonoBehaviour
     public void options()
     {
         opciones.SetActive(true);
+        botones.SetActive(false);
+        EventSystem.current.SetSelectedGameObject(back);
     }
     public void volver()
     {
         opciones.SetActive(false);
+        botones.SetActive(true);
+        EventSystem.current.SetSelectedGameObject(start);
     }
 
 }

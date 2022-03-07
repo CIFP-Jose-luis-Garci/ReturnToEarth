@@ -1,14 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class MovimientoChakal : MonoBehaviour
 {
     float speed = 30f;
+    AudioSource audioSource;
     // Start is called before the first frame update
     void Start()
     {
-
+      audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -34,6 +36,11 @@ public class MovimientoChakal : MonoBehaviour
         if (other.gameObject.tag == "galleta")
         {
             Destroy(other.gameObject);
+            PlaySound();
         }
+    }
+    public void PlaySound()
+    {
+        audioSource.Play();
     }
 }

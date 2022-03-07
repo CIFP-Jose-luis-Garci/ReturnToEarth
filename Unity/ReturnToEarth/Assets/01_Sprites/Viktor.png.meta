@@ -1,0 +1,708 @@
+fileFormatVersion: 2
+guid: 32e088b6aec839d46a5097478105d466
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 77654303317804120
+    second: Viktor_0
+  - first:
+      213: 6557487019510678254
+    second: Viktor_1
+  - first:
+      213: 6567187673849341512
+    second: Viktor_2
+  - first:
+      213: -650540975639742230
+    second: Viktor_3
+  - first:
+      213: -6834244153687508918
+    second: Viktor_4
+  - first:
+      213: 2586748806657426067
+    second: Viktor_5
+  - first:
+      213: -47551551715824118
+    second: Viktor_6
+  - first:
+      213: 4342161889321225547
+    second: Viktor_7
+  - first:
+      213: -8462525792462925745
+    second: Viktor_8
+  - first:
+      213: -7594143587675708325
+    second: Viktor_9
+  - first:
+      213: -7795981851438699848
+    second: Viktor_10
+  - first:
+      213: -8822865668510297177
+    second: Viktor_11
+  - first:
+      213: 4632636305980811235
+    second: Viktor_12
+  - first:
+      213: 8718221940106562487
+    second: Viktor_13
+  - first:
+      213: -7100853575453704085
+    second: Viktor_14
+  - first:
+      213: -4542557106462566477
+    second: Viktor_15
+  - first:
+      213: -8028484834694062499
+    second: Viktor_16
+  - first:
+      213: 1842071796958845286
+    second: Viktor_17
+  - first:
+      213: -1268249135948407923
+    second: Viktor_18
+  - first:
+      213: 4775779661008620330
+    second: Viktor_19
+  - first:
+      213: -8537948856293726597
+    second: Viktor_20
+  - first:
+      213: -599567300344213471
+    second: Viktor_21
+  - first:
+      213: -8760885668292153264
+    second: Viktor_22
+  - first:
+      213: 2015817055016554977
+    second: Viktor_23
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Viktor_0
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 2067
+        width: 166
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 854c98c6d22e31100800000000000000
+      internalID: 77654303317804120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viktor_1
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 2067
+        width: 166
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee24b2183bfd00b50800000000000000
+      internalID: 6557487019510678254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viktor_2
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 2067
+        width: 173
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8462d191566532b50800000000000000
+      internalID: 6567187673849341512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viktor_3
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 2067
+        width: 166
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae8382bed60d8f6f0800000000000000
+      internalID: -650540975639742230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viktor_4
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 2067
+        width: 166
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a487a2fc623e721a0800000000000000
+      internalID: -6834244153687508918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viktor_5
+      rect:
+        serializedVersion: 2
+        x: 1929
+        y: 2067
+        width: 175
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3924bff955af5e320800000000000000
+      internalID: 2586748806657426067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viktor_6
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1615
+        width: 168
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ea57b9d10175ff0800000000000000
+      internalID: -47551551715824118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viktor_7
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 1615
+        width: 166
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d0b3a8b35724c30800000000000000
+      internalID: 4342161889321225547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viktor_8
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 1615
+        width: 173
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f409aadc0a11f8a80800000000000000
+      internalID: -8462525792462925745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viktor_9
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 1615
+        width: 166
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b54674b74ae2c9690800000000000000
+      internalID: -7594143587675708325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viktor_10
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 1615
+        width: 167
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8baaa9d9fcb1fc390800000000000000
+      internalID: -7795981851438699848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viktor_11
+      rect:
+        serializedVersion: 2
+        x: 1933
+        y: 1615
+        width: 174
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a354778b62ee8580800000000000000
+      internalID: -8822865668510297177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viktor_12
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1185
+        width: 134
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e7609fec2e6a4040800000000000000
+      internalID: 4632636305980811235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viktor_13
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 1185
+        width: 180
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb8115d9a85df870800000000000000
+      internalID: 8718221940106562487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viktor_14
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 1185
+        width: 205
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6005098b43b47d90800000000000000
+      internalID: -7100853575453704085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viktor_15
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 1185
+        width: 134
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b75f51116895f0c0800000000000000
+      internalID: -4542557106462566477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viktor_16
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 1185
+        width: 183
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e137f5497159090800000000000000
+      internalID: -8028484834694062499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viktor_17
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 1190
+        width: 208
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6695f742a8a509910800000000000000
+      internalID: 1842071796958845286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viktor_18
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 712
+        width: 134
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8b591d5126466ee0800000000000000
+      internalID: -1268249135948407923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viktor_19
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 712
+        width: 180
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b44fb6c4af64240800000000000000
+      internalID: 4775779661008620330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viktor_20
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 712
+        width: 205
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b76e82e40cc138980800000000000000
+      internalID: -8537948856293726597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viktor_21
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 712
+        width: 134
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1201b0c87b8eda7f0800000000000000
+      internalID: -599567300344213471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viktor_22
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 712
+        width: 183
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 050b2afd6e41b6680800000000000000
+      internalID: -8760885668292153264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viktor_23
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 712
+        width: 208
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e19f686eee99fb10800000000000000
+      internalID: 2015817055016554977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 3006676ee8e3226488ebbaa6b352d4b4
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

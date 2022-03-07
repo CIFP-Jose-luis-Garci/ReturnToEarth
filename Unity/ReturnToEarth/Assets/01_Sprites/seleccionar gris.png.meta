@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: 524a5ff51052cbd42aa219a499f6604a
+guid: 8a351da561bc6c84fa09a0d47487683d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4697179502633048349
-    second: ruleta_bw_mini_RTE_0
+      213: -5327533968017697968
+    second: seleccionar gris_0
   - first:
-      213: -3870913183176121147
-    second: ruleta_bw_mini_RTE_1
+      213: 764892912999789295
+    second: seleccionar gris_1
   - first:
-      213: -3733941440630021194
-    second: ruleta_bw_mini_RTE_2
+      213: -4822207116992466980
+    second: seleccionar gris_2
   - first:
-      213: -3303902139223537986
-    second: ruleta_bw_mini_RTE_3
+      213: -9079177487773517754
+    second: seleccionar gris_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,11 +99,35 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ruleta_bw_mini_RTE_0
+      name: seleccionar gris_0
       rect:
         serializedVersion: 2
         x: 45
@@ -117,14 +141,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e6af4b012440deb0800000000000000
-      internalID: -4697179502633048349
+      spriteID: 0535a73251cc016b0800000000000000
+      internalID: -5327533968017697968
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ruleta_bw_mini_RTE_1
+      name: seleccionar gris_1
       rect:
         serializedVersion: 2
         x: 351
@@ -138,14 +162,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c4296808f0c74ac0800000000000000
-      internalID: -3870913183176121147
+      spriteID: fe2f0924d027d9a00800000000000000
+      internalID: 764892912999789295
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ruleta_bw_mini_RTE_2
+      name: seleccionar gris_2
       rect:
         serializedVersion: 2
         x: 729
@@ -159,14 +183,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b323230b006e2cc0800000000000000
-      internalID: -3733941440630021194
+      spriteID: cdfad4e1d24141db0800000000000000
+      internalID: -4822207116992466980
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ruleta_bw_mini_RTE_3
+      name: seleccionar gris_3
       rect:
         serializedVersion: 2
         x: 360
@@ -180,8 +204,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb68dea528e2622d0800000000000000
-      internalID: -3303902139223537986
+      spriteID: 648398cad28400280800000000000000
+      internalID: -9079177487773517754
       vertices: []
       indices: 
       edges: []
@@ -189,7 +213,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: fb5cfe9a87b869148b32c04091c0dbdc
+    spriteID: 2b6a3a2166e43a24ba3efa826ca27496
     internalID: 0
     vertices: []
     indices: 

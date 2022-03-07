@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: da8e3f2a57818dc448ec890801bc50e5
+guid: e1b9693a62e6e8d40b4c76981135d1d4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6548730552842985474
-    second: ruleta_colors_mini_RTE_0
+      213: -5942123577803026989
+    second: seleccionar colores_0
   - first:
-      213: 4582636926126984217
-    second: ruleta_colors_mini_RTE_1
+      213: -5641936309779899651
+    second: seleccionar colores_1
   - first:
-      213: 3674574486527923886
-    second: ruleta_colors_mini_RTE_2
+      213: -4074850148121589448
+    second: seleccionar colores_2
   - first:
-      213: -3836906354147898047
-    second: ruleta_colors_mini_RTE_3
+      213: 3750702697975658758
+    second: seleccionar colores_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,11 +99,35 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ruleta_colors_mini_RTE_0
+      name: seleccionar colores_0
       rect:
         serializedVersion: 2
         x: 45
@@ -117,14 +141,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 20024fbbdb3c1ea50800000000000000
-      internalID: 6548730552842985474
+      spriteID: 3ddc395b616598da0800000000000000
+      internalID: -5942123577803026989
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ruleta_colors_mini_RTE_1
+      name: seleccionar colores_1
       rect:
         serializedVersion: 2
         x: 351
@@ -138,14 +162,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91c0364210cc89f30800000000000000
-      internalID: 4582636926126984217
+      spriteID: dfad03a81d0d3b1b0800000000000000
+      internalID: -5641936309779899651
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ruleta_colors_mini_RTE_2
+      name: seleccionar colores_2
       rect:
         serializedVersion: 2
         x: 729
@@ -159,14 +183,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea6d53ad606bef230800000000000000
-      internalID: 3674574486527923886
+      spriteID: 839c34831693377c0800000000000000
+      internalID: -4074850148121589448
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ruleta_colors_mini_RTE_3
+      name: seleccionar colores_3
       rect:
         serializedVersion: 2
         x: 360
@@ -180,8 +204,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 14d439ceff190cac0800000000000000
-      internalID: -3836906354147898047
+      spriteID: 60930f25b3c2d0430800000000000000
+      internalID: 3750702697975658758
       vertices: []
       indices: 
       edges: []
@@ -189,7 +213,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 0fda9ebde563fd243953a5266a03cc49
+    spriteID: 19ded2382937fef4883dc1d633f259cd
     internalID: 0
     vertices: []
     indices: 

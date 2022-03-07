@@ -15,8 +15,7 @@ public class Puertas : MonoBehaviour
     {
        puertas = GameObject.FindGameObjectsWithTag("puertas");
        animator = GetComponent<Animator>();
-
-        audioSource = GetComponent<AudioSource>();
+       audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
